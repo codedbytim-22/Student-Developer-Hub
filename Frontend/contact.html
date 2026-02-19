@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Student Developer Hub</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css"
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Send a Message</h2>
+        <form>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <option>General Inquiry</option>
+            <option>Collaboration Request</option>
+            <option>Feedback & Suggestions</option>
+          </select>
+
+          <p>Preferred Contact Method:</p>
+          <input type="radio" id="emailPref" name="contactPref" value="email" />
+          <label for="emailPref">Email</label>
+          <input type="radio" id="phonePref" name="contactPref" value="phone" />
+          <label for="phonePref">Phone</label>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>How can I submit a project?</summary>
+          <p>
+            Send us your project details through the contact form, and we’ll
+            feature it in the Hub.
+          </p>
+        </details>
+        <details>
+          <summary>Can I collaborate with other students?</summary>
+          <p>
+            Yes! We encourage cross-student collaboration on both small and
+            advanced projects.
+          </p>
+        </details>
+        <details>
+          <summary>Are mentorship sessions available?</summary>
+          <p>
+            We offer virtual mentorship sessions focusing on front-end,
+            back-end, and full-stack development.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Student Developer Hub</p>
+    </footer>
+  </body>
+</html>
